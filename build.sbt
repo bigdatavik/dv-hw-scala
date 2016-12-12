@@ -1,12 +1,12 @@
-name := "dv-spark-bench"
+name := "dv-hw-scala"
 version := "1.0"
-organization := "dv.sparkbench"
-scalaVersion := "2.10.5"
+organization := "dv.hw"
+scalaVersion := "2.10.4"
 
 //libraryDependencies += "org.apache.hadoop" %% "hadoop-common" % "2.2.0" % "provided"
-libraryDependencies += "org.apache.spark" %% "spark-core" % "1.6.0" % "provided"
-libraryDependencies += "org.apache.spark" %% "spark-mllib" % "1.6.0" % "provided"
-libraryDependencies += "org.apache.spark" %% "spark-sql" % "1.6.0" % "provided"
+//libraryDependencies += "org.apache.spark" %% "spark-core" % "1.6.0" % "provided"
+//libraryDependencies += "org.apache.spark" %% "spark-mllib" % "1.6.0" % "provided"
+//libraryDependencies += "org.apache.spark" %% "spark-sql" % "1.6.0" % "provided"
 
 
 //resolvers ++= Seq(
